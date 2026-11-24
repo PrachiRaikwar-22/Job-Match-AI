@@ -7,7 +7,7 @@ suggestions** on what to add or learn.
 
 Built with **Python + Streamlit** only. No JavaScript and no FastAPI needed.
 
-🚀 **Live App:** [Try Job Match AI on Streamlit](https://streamlit.app)
+🚀 **Live App:** [Try Job Match AI]([https://streamlit.app](https://prachiraikwar-22-job-match-ai-app-1fdn7i.streamlit.app/))
 
 ## Features
 

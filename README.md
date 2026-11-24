@@ -1,3 +1,4 @@
+
 # 📄 Job Match AI
 
 A mini project that compares your resume with a job description (JD), shows how well you
@@ -5,6 +6,8 @@ match, highlights matched and missing keywords, and uses an LLM (Groq) to give *
 suggestions** on what to add or learn.
 
 Built with **Python + Streamlit** only. No JavaScript and no FastAPI needed.
+
+🚀 **Live App:** [Try Job Match AI on Streamlit](https://streamlit.app)
 
 ## Features
 
@@ -28,7 +31,6 @@ Built with **Python + Streamlit** only. No JavaScript and no FastAPI needed.
 JobMatchAI/
 ├── app.py              # Streamlit UI, theme toggle, results, suggestions
 ├── core/
-│   ├── __init__.py
 │   ├── parser.py       # PDF / TXT -> clean text
 │   ├── nlp.py          # preprocessing, TF-IDF, cosine, keywords, highlighting, retrieval
 │   └── llm.py          # Groq call + suggestion prompt

@@ -6,6 +6,7 @@ match, highlights matched and missing keywords, and uses an LLM (Groq) to give *
 suggestions** on what to add or learn.
 
 Built with **Python + Streamlit** only. No JavaScript and no FastAPI needed.
+
 🚀 **Live App:** [Try Job Match AI](https://prachiraikwar-22-job-match-ai-app-1fdn7i.streamlit.app/)
 
 ## Features

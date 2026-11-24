@@ -103,7 +103,7 @@ TOP_N = 30  # number of keywords to extract
 # ------------------------------------------------------------------- MAIN
 col1, col2 = st.columns([1, 5], vertical_alignment="center")
 with col1:
-  st.image("assets/jobmatch_logo.png", width=110)
+  st.image("assets/jobmatch_logo.png.png", width=110)
 with col2:
   st.title("Job Match AI")
   st.caption("Upload your resume, paste the job description, see how well you match, "

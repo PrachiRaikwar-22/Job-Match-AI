@@ -12,20 +12,15 @@ load_dotenv()
 from PIL import Image
 import streamlit as st
 
+
 # Option A: Use a local logo image (e.g., PNG) for the browser tab icon
-tab_icon = Image.open("assets/jobmatch_logo.png")
+tab_icon = Image.open("assets/jobmatch_logo.png.png")
 
 st.set_page_config(
     page_title="JobMatch AI",
     page_icon=tab_icon,  # Or use an emoji like "🎯" or "📄"
     layout="wide",
 )
-# Static logo in the main header or sidebar
-st.image("assets/jobmatch_logo.png", width=180)
-
-# Or animated logo video (such as your MP4 clip)
-with open("assets/jobmatch_logo_animation.mp4", "rb") as video_file:
-  st.video(video_file.read(), autoplay=True, loop=True, muted=True)
 # ------------------------------------------------------------------ THEME
 LIGHT = dict(bg="#ffffff", bg2="#f3f4f8", text="#1f2430", muted="#5b6275",
              border="#d9dce6", accent="#4f46e5", hit="#bbf7d0", hit_t="#14532d",

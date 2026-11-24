@@ -105,7 +105,8 @@ col1, col2 = st.columns([1, 5], vertical_alignment="center")
 with col1:
   st.image("assets/jobmatch_logo.png", width=110)
 with col2:
-  st.title("Job Match AI")st.caption("Upload your resume, paste the job description, see how well you match, "
+  st.title("Job Match AI")
+  st.caption("Upload your resume, paste the job description, see how well you match, "
            "then get AI suggestions on what to add or learn.")
 c1, c2 = st.columns(2)
 with c1:
